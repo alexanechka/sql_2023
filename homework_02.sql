@@ -56,4 +56,13 @@ INSERT INTO `users` (`firstname`, `lastname`, `email`, `phone`) VALUES ('Ник�
 INSERT INTO `users` (`firstname`, `lastname`, `email`, `phone`) VALUES ('Ирина', 'Викторова', 'reyuierghtur@ya.ru', '2334435');
 INSERT INTO `users` (`firstname`, `lastname`, `email`, `phone`) VALUES ('Наталья', 'Лыско', 'yuroyrio@ya.ru', '76545312453');
 
-
+INSERT INTO `profiles` (`user_id`, `gender`, `birthday`) VALUES ('Иван', 'Иванов', 'ivanov@gmail.com', '456489');
+INSERT INTO `profiles` (`user_id`, `gender`, `birthday`) VALUES ('Петр', 'Петров', 'petrov.12345@mail.ru', '4597851566');
+INSERT INTO `profiles` (`user_id`, `gender`, `birthday`) VALUES ('Алексей', 'Сидоров', 'triotutoyu@ya.ru', '54648768');
+INSERT INTO `profiles` (`user_id`, `gender`, `birthday`) VALUES ('Олег', 'Александров', 'treity@ya.ru', '123243545');
+INSERT INTO `profiles` (`user_id`, `gender`, `birthday`) VALUES ('Ольга', 'Анциферова', 'v4367856485@ya.ru', '2343435');
+INSERT INTO `profiles` (`user_id`, `gender`, `birthday`) VALUES ('Виктория', 'Кузнецова', 'yuoyrio@ya.ru', '76545343453');
+INSERT INTO `profiles` (`user_id`, `gender`, `birthday`) VALUES ('Андрей', 'Суздальцев', 'ioi@ya.ru', '54644543768');
+INSERT INTO `profiles` (`user_id`, `gender`, `birthday`) VALUES ('Никита', 'Александров', 'qwrqye@ya.ru', '12312243545');
+INSERT INTO `profiles` (`user_id`, `gender`, `birthday`) VALUES ('Ирина', 'Викторова', 'reyuierghtur@ya.ru', '2334435');
+INSERT INTO `profiles` (`user_id`, `gender`, `birthday`) VALUES ('Наталья', 'Лыско', 'yuroyrio@ya.ru', '76545312453');
