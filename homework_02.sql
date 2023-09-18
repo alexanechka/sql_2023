@@ -56,13 +56,13 @@ INSERT INTO `users` (`firstname`, `lastname`, `email`, `phone`) VALUES ('Ник�
 INSERT INTO `users` (`firstname`, `lastname`, `email`, `phone`) VALUES ('Ирина', 'Викторова', 'reyuierghtur@ya.ru', '2334435');
 INSERT INTO `users` (`firstname`, `lastname`, `email`, `phone`) VALUES ('Наталья', 'Лыско', 'yuroyrio@ya.ru', '76545312453');
 
-INSERT INTO `profiles` (`user_id`, `gender`, `birthday`) VALUES ('Иван', 'Иванов', 'ivanov@gmail.com', '456489');
-INSERT INTO `profiles` (`user_id`, `gender`, `birthday`) VALUES ('Петр', 'Петров', 'petrov.12345@mail.ru', '4597851566');
-INSERT INTO `profiles` (`user_id`, `gender`, `birthday`) VALUES ('Алексей', 'Сидоров', 'triotutoyu@ya.ru', '54648768');
-INSERT INTO `profiles` (`user_id`, `gender`, `birthday`) VALUES ('Олег', 'Александров', 'treity@ya.ru', '123243545');
-INSERT INTO `profiles` (`user_id`, `gender`, `birthday`) VALUES ('Ольга', 'Анциферова', 'v4367856485@ya.ru', '2343435');
-INSERT INTO `profiles` (`user_id`, `gender`, `birthday`) VALUES ('Виктория', 'Кузнецова', 'yuoyrio@ya.ru', '76545343453');
-INSERT INTO `profiles` (`user_id`, `gender`, `birthday`) VALUES ('Андрей', 'Суздальцев', 'ioi@ya.ru', '54644543768');
-INSERT INTO `profiles` (`user_id`, `gender`, `birthday`) VALUES ('Никита', 'Александров', 'qwrqye@ya.ru', '12312243545');
-INSERT INTO `profiles` (`user_id`, `gender`, `birthday`) VALUES ('Ирина', 'Викторова', 'reyuierghtur@ya.ru', '2334435');
-INSERT INTO `profiles` (`user_id`, `gender`, `birthday`) VALUES ('Наталья', 'Лыско', 'yuroyrio@ya.ru', '76545312453');
+INSERT INTO `profiles` (`user_id`, `gender`, `birthday`) VALUES (1, 'm', '2000-08-13');
+INSERT INTO `profiles` (`user_id`, `gender`, `birthday`) VALUES (2, 'm', '2010-04-13');
+INSERT INTO `profiles` (`user_id`, `gender`, `birthday`) VALUES (3, 'm', '2011-07-04');
+INSERT INTO `profiles` (`user_id`, `gender`, `birthday`) VALUES (4, 'm', '2001-05-08');
+INSERT INTO `profiles` (`user_id`, `gender`, `birthday`) VALUES (5, 'f', '2004-12-03');
+INSERT INTO `profiles` (`user_id`, `gender`, `birthday`) VALUES (6, 'f', '2019-09-24');
+INSERT INTO `profiles` (`user_id`, `gender`, `birthday`) VALUES (7, 'm', '2007-07-09');
+INSERT INTO `profiles` (`user_id`, `gender`, `birthday`) VALUES (8, 'm', '2001-12-03');
+INSERT INTO `profiles` (`user_id`, `gender`, `birthday`) VALUES (9, 'f', '2000-11-04');
+INSERT INTO `profiles` (`user_id`, `gender`, `birthday`) VALUES (10, 'f', '2012-11-20');
