@@ -28,15 +28,13 @@ GROUP BY us.id ORDER BY msgs DESC LIMIT 1;
 /*4. * Подсчитать общее количество лайков, которые получили пользователи младше 18 лет..*/
 SELECT
 COUNT(*)
-FROM users as us
-INNER JOIN likes as lk on (us.id = lk.user_id)
-INNER JOIN profiles AS pf on (us.id = pf.user_id AND pf.birthday>DATE_ADD(now(), INTERVAL -18 Year));
+FROM likes as lk 
+INNER JOIN profiles AS pf on (lk.user_id = pf.user_id AND pf.birthday>DATE_ADD(now(), INTERVAL -18 Year));
 
 /*5. * Определить кто больше поставил лайков (всего): мужчины или женщины.*/
 SELECT
 pf.gender,
 COUNT(*) AS likes
-FROM users as us
-INNER JOIN likes as lk on (us.id = lk.user_id)
-INNER JOIN profiles AS pf on (us.id = pf.user_id)
+FROM likes as lk 
+INNER JOIN profiles AS pf on (lk.user_id = pf.user_id)
 GROUP BY pf.gender ORDER BY likes DESC
